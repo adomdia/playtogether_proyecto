@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Nuestros estilos -->
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <link rel="icon" href="{{asset('images/logo-icon.png')}}" type="image/ico" sizes="16x16">
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
