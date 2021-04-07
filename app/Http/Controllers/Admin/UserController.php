@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+
 
 use App\Http\Controllers\Admin\BaseFiltradoController;
 use App\User;
@@ -149,6 +149,7 @@ class UserController extends BaseFiltradoController
     public function suplantar($id)
     {
         $this->permissionCheck();
+
         $target = $this->getTargetUser($id);
 
         $real_id = Auth::id();

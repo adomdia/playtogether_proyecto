@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,18 +27,14 @@ require __DIR__.'/auth.php';
 
 Route::group(['prefix' => 'intranet'], function () {
     Route::group(['middleware' => 'admin.user'], function () {
-        Route::get('/users/suplantar/{id}', 'UserController@suplantar')->name('intranet.user.suplantar');
+        Route::get('/users/suplantar/{id}', [\App\Http\Controllers\AdminExtraController::class,'suplantar'])->name('suplantar');
+
+        // Route::get('/users/suplantar/{id}', [UserController::class,'suplantar'])->name('suplantar');
+
         Route::any('/cms/imagesave', 'Admin\VoyagerController@saveImage')->name('intranet.contentbuilder.saveimage');
         Route::get('/ayuda', function () {
             return view('vendor.voyager.ayuda.index');
         })->name('ayuda');
-        Route::get('respuestas/{id_form}/{id_user?}','FormularioController@mostrarRespuestas')->name('mostrarRespuestas');
-        Route::post('delete-respuestas','FormularioController@eliminarInscrito')->name('eliminarInscrito');
-
-        Route::get('inscritos/{id}','FormularioController@mostrarInscritos')->name('mostrarInscritos');
-        Route::post('save-form-intranet','FormularioController@saveFormIntranet')->name('save.form.intranet');
-        Route::put('update-form-intranet/{id}','FormularioController@updateFormIntranet')->name('update.form.intranet');
-
     });
     Voyager::routes();
 });
