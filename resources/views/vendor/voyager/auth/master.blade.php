@@ -35,8 +35,122 @@
         .remember-me-text{
             padding:0 5px;
         }
+       /* @media (max-width: 760px) {
+
+            .fondo-transparente-cont-opaco {
+                background-color: rgba(255, 255, 255, 0.62);
+                color: #ffffff;
+            }
+
+            ::-webkit-input-placeholder {
+                color: #fff !important;
+                font-weight: bold !important;
+                opacity: 1 !important;
+            }
+
+            ::-moz-placeholder {
+                color: #fff !important;
+                font-weight: bold !important;
+                opacity: 1 !important;
+            }
+
+            !* firefox 19+ *!
+            :-ms-input-placeholder {
+                color: #fff !important;
+                font-weight: bold !important;
+                opacity: 1 !important;
+            }
+
+            !* ie *!
+            input:-moz-placeholder {
+                color: #fff !important;
+                font-weight: bold !important;
+                opacity: 1 !important;
+            }
+
+            body.login .login-sidebar {
+                border-top: 0px !important;
+                background-color: {{ Voyager::setting("admin.bg_color", "#FFFFFF" ) }};
+                !* border-left: 5px solid
+            {{ config('voyager.primary_color','#22A7F0') }} ;*!
+            }
+
+            body.login .login-container {
+                position: absolute;
+                z-index: 10;
+                width: 100%;
+                padding: 0px;
+                top: 20%;
+
+            }
+
+            body.login .form-group-default .form-control {
+                border: none;
+                height: 40px;
+                color:white;
+                padding: 0;
+                margin-top: -4px;
+                background: 0 0;
+            }
+
+            .contenedor_logo {
+                margin-top: 12%;
+            }
+
+            body.login .login-button {
+                display: block;
+                text-align: center;
+                margin-top: 5%;
+                color: #eee;
+                background:{{ Voyager::setting('admin.bg_login_button','#22A7F0')  }};
+                padding: 12px 20px;
+                outline: 0 !important;
+
+                border: 0;
+                width: 100%;
+                border-radius: 2px;
+                float: left;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                transition: width .3s ease;
+            }
+
+            body.login .form-group-default {
+                background-color: {{ Voyager::setting('admin.bg_login_input','#22A7F0')  }};
+                position: relative;
+
+                border-radius: 0px;
+                padding: 7px 12px 4px;
+                overflow: hidden;
+                transition: border .3s ease-in;
+                font-weight: 400;
+                color: white;
+
+
+            }
+
+            body.login .blanco_t {
+                background-color: #ffffff8c;
+                opacity: 0.8;
+                color: white;
+            }
+
+        }*/
+
+        body.login .form-group-default.focused {
+            /*border-color:
+        {{ config('voyager.primary_color','#22A7F0') }} ;*/
+            border-color: {{ config('admin.bg_color','#22A7F0') }};
+        }
+
+        .login-button, .bar:before, .bar:after {
+            background: {{ config('voyager.primary_color','#22A7F0') }};
+        }
+
+
     </style>
-    
+
     @yield('pre_css')
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 </head>

@@ -24,6 +24,11 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
+##Stripe
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/subscription/create', [\App\Http\Controllers\SubscriptionController::class,'index'])->name('subscription.create');
+    Route::post('order-post', [\App\Http\Controllers\SubscriptionController::class,'orderPost'])->name('order-post');
+});
 
 Route::group(['prefix' => 'intranet'], function () {
     Route::group(['middleware' => 'admin.user'], function () {

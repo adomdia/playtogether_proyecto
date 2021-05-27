@@ -222,7 +222,7 @@ class InstaladorCommand extends Command
      *
      * @param bool $create
      *
-     * @return \App\User
+     * @return \App\Models\User
      */
     protected function getUser($create = false)
     {

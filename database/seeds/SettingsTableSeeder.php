@@ -129,6 +129,40 @@ class SettingsTableSeeder extends Seeder
                 'group'        => 'Admin',
             ])->save();
         }
+        /* personalizaciones */
+        $setting = $this->findSetting('admin.bg_color');
+        if (!$setting->exists) {
+            $setting->fill([
+                'display_name' => __('Color de fondo panel de la ventana de login'),
+                'value'        => '#A5B793',
+                'details'      => '',
+                'type'         => 'text',
+                'order'        => 6,
+                'group'        => 'Admin',
+            ])->save();
+        }
+        $setting = $this->findSetting('admin.bg_login_button');
+        if (!$setting->exists) {
+            $setting->fill([
+                'display_name' => __('Color del botón login (Responsive)'),
+                'value'        => '#18a71e',
+                'details'      => '',
+                'type'         => 'text',
+                'order'        => 7,
+                'group'        => 'Admin',
+            ])->save();
+        }
+        $setting = $this->findSetting('admin.bg_login_input');
+        if (!$setting->exists) {
+            $setting->fill([
+                'display_name' => __('Color campos login (Responsive)'),
+                'value'        => '#fff',
+                'details'      => '',
+                'type'         => 'text',
+                'order'        => 8,
+                'group'        => 'Admin',
+            ])->save();
+        }
     }
 
     /**
