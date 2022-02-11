@@ -30,6 +30,11 @@
         </a>
         @endcan
     </h1>
+    <style>
+        .panel-body>p{
+            padding-left: 15px;
+        }
+    </style>
     @include('voyager::multilingual.language-selector')
 @stop
 
@@ -71,7 +76,7 @@
                             @elseif($row->type == 'select_dropdown' && property_exists($row->details, 'options') &&
                                     !empty($row->details->options->{$dataTypeContent->{$row->field}})
                             )
-                                <?php echo $row->details->options->{$dataTypeContent->{$row->field}};?>
+                                <?php echo '<p>'.$row->details->options->{$dataTypeContent->{$row->field}}.'</p>';?>
                             @elseif($row->type == 'select_multiple')
                                 @if(property_exists($row->details, 'relationship'))
 
@@ -94,7 +99,7 @@
                                 @if ( property_exists($row->details, 'format') && !is_null($dataTypeContent->{$row->field}) )
                                     {{ \Carbon\Carbon::parse($dataTypeContent->{$row->field})->formatLocalized($row->details->format) }}
                                 @else
-                                    {{ $dataTypeContent->{$row->field} }}
+                                    <p>{{ $dataTypeContent->{$row->field} }}</p>
                                 @endif
                             @elseif($row->type == 'checkbox')
                                 @if(property_exists($row->details, 'on') && property_exists($row->details, 'off'))
@@ -104,7 +109,7 @@
                                     <span class="label label-primary">{{ $row->details->off }}</span>
                                     @endif
                                 @else
-                                {{ $dataTypeContent->{$row->field} }}
+                                    <p>{{ $dataTypeContent->{$row->field} }}</p>
                                 @endif
                             @elseif($row->type == 'color')
                                 <span class="badge badge-lg" style="background-color: {{ $dataTypeContent->{$row->field} }}">{{ $dataTypeContent->{$row->field} }}</span>

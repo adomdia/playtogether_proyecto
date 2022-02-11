@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,21 +19,49 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get(
+    '/test_browsershot',
+    [TestController::class, 'browsershot']
+)->name('test_browsershot');
 
-require __DIR__.'/auth.php';
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+    Route::get('/ejemplo-slide', function () {
+        return view('ejemplo_slide');
+    })->name('ejemplo.slide');
+    Route::get('/posts', function () {
+        return view('posts');
+    })->name('posts');
+    Route::get('/post/{slug}', function () {
+        return view('post');
+    })->name('post');
+    Route::get('/paginas', function () {
+        return view('paginas');
+    })->name('paginas');
+    Route::get('/pagina/{slug}', function () {
+        return view('pagina');
+    })->name('pagina');
+    Route::get('/notificaciones', function () {
+        return view('notificaciones');
+    })->name('notificaciones');
+    Route::get('/livewire', function () {
+        return view('ejemplo_livewire');
+    })->name('livewire');
+});
+
+require __DIR__ . '/auth.php';
 
 ##Stripe
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/subscription/create', [\App\Http\Controllers\SubscriptionController::class,'index'])->name('subscription.create');
-    Route::post('order-post', [\App\Http\Controllers\SubscriptionController::class,'orderPost'])->name('order-post');
+    Route::get('/subscription/create', [\App\Http\Controllers\SubscriptionController::class, 'index'])->name('subscription.create');
+    Route::post('order-post', [\App\Http\Controllers\SubscriptionController::class, 'orderPost'])->name('order-post');
 });
 
 Route::group(['prefix' => 'intranet'], function () {
     Route::group(['middleware' => 'admin.user'], function () {
-        Route::get('/users/suplantar/{id}', [\App\Http\Controllers\AdminExtraController::class,'suplantar'])->name('suplantar');
+        Route::get('/users/suplantar/{id}', [\App\Http\Controllers\AdminExtraController::class, 'suplantar'])->name('suplantar');
 
         // Route::get('/users/suplantar/{id}', [UserController::class,'suplantar'])->name('suplantar');
 

@@ -13,20 +13,13 @@ class SubscriptionController extends Controller
 {
     public function index()
     {
-
         $productos_prices= [];
         Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
         $products=Stripe\Product::all(['active'=>true]);
         foreach($products as $producto) {
-           // dd($producto->name);
             $prices=Stripe\Price::all(['product'=>$producto->id]);
             $productos_prices+=[$producto->name =>$prices['data'][0]->id];
-
-
-            //dd($prices['data'][0]->id);
         }
-       // dd($productos_prices);
-
         $products=Stripe\Product::all(); //Trae todos los productos creados en Stripe y los muestra en la vista
         return view('teststripe',compact('productos_prices'));
     }
