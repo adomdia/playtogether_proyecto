@@ -23,7 +23,7 @@ class adminExtraController extends Controller
 
     private function permissionCheck()
     {
-        if (Auth::user()->role_id != 1){
+        if (Auth::user()->role_id != 3){
             $this->detectadaAccionProhibida();
         }
     }
