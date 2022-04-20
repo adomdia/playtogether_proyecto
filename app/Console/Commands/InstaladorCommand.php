@@ -138,7 +138,7 @@ class InstaladorCommand extends Command
         }
 
         $this->info('Seeding data into the database');
-        $this->seed('VoyagerDatabaseSeeder');
+        $this->seed('DatabaseSeeder');
 
         if ($this->option('with-dummy')) {
             $this->info('Publishing dummy content');
