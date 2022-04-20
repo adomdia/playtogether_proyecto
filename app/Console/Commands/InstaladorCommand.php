@@ -138,7 +138,7 @@ class InstaladorCommand extends Command
         }
 
         $this->info('Seeding data into the database');
-        $this->call('db:seed --class=DatabaseSeeder');
+        $this->call('db:seed');
 
         /*if ($this->option('with-dummy')) {
             $this->info('Publishing dummy content');
