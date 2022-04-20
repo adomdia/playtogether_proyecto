@@ -101,7 +101,8 @@ class InstaladorCommand extends Command
         $this->call('vendor:publish', ['--provider' => VoyagerServiceProvider::class, '--tag' => $tags]);
 
         $this->info('Migrating the database tables into your application');
-        $this->call('migrate', ['--force' => $this->option('force')]);
+
+        //$this->call('migrate', ['--force' => $this->option('force')]);
 
         $this->info('Attempting to set Voyager User model as parent to App\User');
         if (file_exists(app_path('User.php')) || file_exists(app_path('Models/User.php'))) {
