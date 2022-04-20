@@ -25,7 +25,5 @@ class DatabaseSeeder extends Seeder
         $this->seed('PermissionsTableSeeder');
         $this->seed('PermissionRoleTableSeeder');
         $this->seed('SettingsTableSeeder');
-        $this->seed('PagesTableSeeder');
-        $this->seed('PostsTableSeeder');
     }
 }
