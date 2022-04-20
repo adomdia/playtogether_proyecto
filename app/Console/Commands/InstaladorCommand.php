@@ -138,9 +138,9 @@ class InstaladorCommand extends Command
         }
 
         $this->info('Seeding data into the database');
-        $this->seed('VoyagerDatabaseSeeder');
+        $this->call('db:seed --class=DatabaseSeeder');
 
-        if ($this->option('with-dummy')) {
+        /*if ($this->option('with-dummy')) {
             $this->info('Publishing dummy content');
             $tags = ['dummy_seeds', 'dummy_content', 'dummy_config', 'dummy_migrations'];
             $this->call('vendor:publish', ['--provider' => VoyagerDummyServiceProvider::class, '--tag' => $tags]);
@@ -152,7 +152,7 @@ class InstaladorCommand extends Command
             $this->seed('VoyagerDummyDatabaseSeeder');
         } else {
             $this->call('vendor:publish', ['--provider' => VoyagerServiceProvider::class, '--tag' => ['config', 'voyager_avatar']]);
-        }
+        }*/
 
         $this->info('Setting up the hooks');
         $this->call('hook:setup');
