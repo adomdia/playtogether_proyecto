@@ -20,11 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get(
-    '/test_browsershot',
-    [TestController::class, 'browsershot']
-)->name('test_browsershot');
-
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -51,9 +46,6 @@ Route::group(['middleware' => 'auth'], function () {
         return view('ejemplo_livewire');
     })->name('livewire');
 
-    Route::get('/vue', function () {
-        return view('ejemplo_vue');
-    })->name('vue');
 });
 
 require __DIR__ . '/auth.php';
