@@ -68,6 +68,4 @@ Route::group(['prefix' => 'intranet'], function () {
         })->name('ayuda');
     });
     Voyager::routes();
-
-
 });
