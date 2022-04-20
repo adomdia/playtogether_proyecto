@@ -23,7 +23,9 @@ class adminExtraController extends Controller
 
     private function permissionCheck()
     {
+
         if (Auth::user()->role_id != 3){
+
             $this->detectadaAccionProhibida();
         }
     }
@@ -36,7 +38,7 @@ class adminExtraController extends Controller
     {
         $target = User::findOrFail($id);
 
-        if ($target->role_id == 1){
+        if ($target->role_id == 3){
             $this->detectadaAccionProhibida();
         }
 
@@ -47,7 +49,7 @@ class adminExtraController extends Controller
     private function onlyAdminCanSetAdmin(Request $request)
     {
 
-        if (Auth::user()->role_id != 1) //no es admin
+        if (Auth::user()->role_id != 3) //no es admin
         {
             if ($request->get('role_id') === 1){
                 $this->detectadaAccionProhibida();
