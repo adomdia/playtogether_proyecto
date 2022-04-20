@@ -97,7 +97,7 @@ class PagesTableSeeder extends Seeder
         $dataRow = $this->dataRow($pageDataType, 'body');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'rich_text_box',
+                'type'         => 'contentbuilder',
                 'display_name' => __('voyager::seeders.data_rows.body'),
                 'required'     => 1,
                 'browse'       => 0,
