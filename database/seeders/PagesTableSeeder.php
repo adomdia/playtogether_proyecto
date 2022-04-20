@@ -76,6 +76,11 @@ class PagesTableSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'order'        => 3,
+                'details'      => [
+                    'validation' => [
+                        'rule'  => 'required',
+                    ],
+                ],
             ])->save();
         }
 

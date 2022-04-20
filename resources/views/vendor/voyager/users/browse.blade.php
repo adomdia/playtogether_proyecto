@@ -252,7 +252,7 @@
                                         @endforeach
 
                                         <td class="no-sort no-click bread-actions">
-                                            @if(auth()->user()->role_id == 1)
+                                            @if(auth()->user()->role_id == 3)
                                                 <a href="{{route('suplantar', ['id' => $data->id])}}"
                                                    title="Suplantar" class="btn btn-sm btn-primary pull-right edit">
                                                     <i class="fas fa-user-secret"></i>
