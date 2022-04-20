@@ -4,7 +4,7 @@
 
     <body class="font-sans antialiased">
     @include('layouts.navbar')
-        <div class="min-h-screen bg-gray-100">
+
 
 
             {{-- Mensajes flash --}}
@@ -13,7 +13,6 @@
             {{-- Contenido de la página --}}
             @yield('content')
 
-        </div>
     {{-- Footer --}}
     @include('layouts.footer')
 

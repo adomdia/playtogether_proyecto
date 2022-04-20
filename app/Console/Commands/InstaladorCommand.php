@@ -195,6 +195,7 @@ class InstaladorCommand extends Command
         $user->save();
 
         $this->info('The user now has full access to your site.');
+
     }
 
     /**

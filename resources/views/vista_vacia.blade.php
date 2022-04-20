@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-    <p>Aquí todo el contenido HTML, sin head, navbar, css o javascript globales</p>
+    <p>Aquí todo el contenido HTML especifico de esta página</p>
 
 
 @endsection

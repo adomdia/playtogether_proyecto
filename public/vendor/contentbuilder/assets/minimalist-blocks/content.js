@@ -38,11 +38,11 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-04.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<div class="display">' +
@@ -70,7 +70,7 @@ var data_basic = {
 		{
 		    'thumbnail': 'preview/article-07.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<div class="display">' +
@@ -100,13 +100,13 @@ var data_basic = {
 					'<div class="column full">' +
 						'<p class="size-16" style="text-align: center;"><i style="color: rgb(204, 204, 204);">By Jennifer Anderson</i></p>' +
 					'</div>' +
-				'</div>'							
+				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-08.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<p style="color: rgb(136, 136, 136);">WORDS FROM ANDREW JONES</p>' +
@@ -122,13 +122,13 @@ var data_basic = {
 					'<div class="column full">' +
 						'<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>' +
 					'</div>' +
-				'</div>'								
+				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-09.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
 						'<h1 class="size-32 is-title5-32 is-title-lite"><i>Simplify Things</i></h1>' +
@@ -139,13 +139,13 @@ var data_basic = {
 					'<div class="column full">' +
 						'<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Vivamus leo ante, consectetur sit amet.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>' +
 					'</div>' +
-				'</div>'							
+				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-10.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<div class="display">' +
@@ -163,13 +163,13 @@ var data_basic = {
 					'<div class="column full">' +
 						'<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel.</p>' +
 					'</div>' +
-				'</div>'							
+				'</div>'
 		},
-				
+
 		{
 		    'thumbnail': 'preview/article-13.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<div class="display">' +
@@ -188,13 +188,13 @@ var data_basic = {
 						'<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p>' +
 						'\n<p>Vivamus leo ante, consectetur sit amet vulputate vel, sit amet lectus.</p>' +
 					'</div>' +
-				'</div>'					
+				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-16.png',
 		    'category': '118',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
 						'<div class="display">' +
@@ -215,7 +215,7 @@ var data_basic = {
 					'<div class="column half">' +
 						'<p style="text-align: justify;">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>' +
 					'</div>' +
-				'</div>'							
+				'</div>'
 		},
 
 		{
@@ -242,7 +242,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-25.png',
 		    'category': '118',
@@ -264,7 +264,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-27.png',
 		    'category': '118',
@@ -293,7 +293,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-30.png',
 		    'category': '118',
@@ -317,7 +317,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-31.png',
 		    'category': '118',
@@ -332,7 +332,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-33.png',
 		    'category': '118',
@@ -356,7 +356,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-35.png',
 		    'category': '118',
@@ -388,7 +388,7 @@ var data_basic = {
 				'</div>'
 		},
 
-		
+
 		{
 		    'thumbnail': 'preview/article-39.png',
 		    'category': '118',
@@ -409,7 +409,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-40.png',
 		    'category': '118',
@@ -487,7 +487,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-46.png',
 		    'category': '118',
@@ -519,7 +519,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-49.png',
 		    'category': '118',
@@ -544,7 +544,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-50.png',
 		    'category': '118',
@@ -630,7 +630,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/article-54.png',
 		    'category': '118',
@@ -658,7 +658,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-55.png',
 		    'category': '118',
@@ -689,7 +689,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-57.png',
 		    'category': '118',
@@ -715,7 +715,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-58.png',
 		    'category': '118',
@@ -743,8 +743,8 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
-        
+
+
 		{
 		    'thumbnail': 'preview/article-59.png',
 		    'category': '118',
@@ -766,7 +766,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-60.png',
 		    'category': '118',
@@ -791,9 +791,9 @@ var data_basic = {
 						'<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>' +
 					'</div>' +
 				'</div>'
-					
+
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-61.png',
 		    'category': '118',
@@ -821,9 +821,9 @@ var data_basic = {
 					'<div class="column third">' +
 						'<p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Vivamus leo ante, consectetur sit amet, sit amet lectus.</p>' +
 					'</div>' +
-				'</div>'	
+				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/article-62.png',
 		    'category': '118',
@@ -851,12 +851,12 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
-		
+
+
 
 
         /* HEADLINE */
-	
+
 		{
 		    'thumbnail': 'preview/header-02.png',
 		    'category': '101',
@@ -867,7 +867,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-	
+
 		{
 		    'thumbnail': 'preview/header-07.png',
 		    'category': '101',
@@ -886,7 +886,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-08.png',
 		    'category': '101',
@@ -901,7 +901,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-09.png',
 		    'category': '101',
@@ -920,7 +920,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-       
+
         {
 		    'thumbnail': 'preview/header-23.png',
 		    'category': '101',
@@ -939,7 +939,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-				
+
 		{
 		    'thumbnail': 'preview/header-25.png',
 		    'category': '101',
@@ -958,7 +958,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-26.png',
 		    'category': '101',
@@ -974,7 +974,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-27.png',
 		    'category': '101',
@@ -993,7 +993,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-28.png',
 		    'category': '101',
@@ -1017,7 +1017,7 @@ var data_basic = {
 		{
 		    'thumbnail': 'preview/header-32.png',
 		    'category': '101',
-		    'html':				
+		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
 						'<div class="display">' +
@@ -1051,7 +1051,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-   
+
 		{
 		    'thumbnail': 'preview/header-38.png',
 		    'category': '101',
@@ -1068,7 +1068,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-     
+
 		{
 		    'thumbnail': 'preview/header-41.png',
 		    'category': '101',
@@ -1124,7 +1124,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-    
+
 		{
 		    'thumbnail': 'preview/header-46.png',
 		    'category': '101',
@@ -1143,7 +1143,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-47.png',
 		    'category': '101',
@@ -1154,7 +1154,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-48.png',
 		    'category': '101',
@@ -1175,7 +1175,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-49.png',
 		    'category': '101',
@@ -1194,7 +1194,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-50.png',
 		    'category': '101',
@@ -1218,7 +1218,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-51.png',
 		    'category': '101',
@@ -1230,7 +1230,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-52.png',
 		    'category': '101',
@@ -1249,7 +1249,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-53.png',
 		    'category': '101',
@@ -1261,7 +1261,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-54.png',
 		    'category': '101',
@@ -1280,7 +1280,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-55.png',
 		    'category': '101',
@@ -1303,7 +1303,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-56.png',
 		    'category': '101',
@@ -1315,7 +1315,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-57.png',
 		    'category': '101',
@@ -1337,7 +1337,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-58.png',
 		    'category': '101',
@@ -1351,7 +1351,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-59.png',
 		    'category': '101',
@@ -1363,7 +1363,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-60.png',
 		    'category': '101',
@@ -1378,7 +1378,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-61.png',
 		    'category': '101',
@@ -1391,7 +1391,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/header-63.png',
 		    'category': '101',
@@ -1412,7 +1412,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		/* PHOTOS */
 
 
@@ -1568,7 +1568,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-15.png',
 		    'category': '102',
@@ -1601,7 +1601,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-16.png',
 		    'category': '102',
@@ -1614,7 +1614,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-17.png',
 		    'category': '102',
@@ -1645,7 +1645,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-18.png',
 		    'category': '102',
@@ -1671,7 +1671,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-19.png',
 		    'category': '102',
@@ -1701,7 +1701,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-20.png',
 		    'category': '102',
@@ -1713,7 +1713,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-21.png',
 		    'category': '102',
@@ -1740,7 +1740,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-22.png',
 		    'category': '102',
@@ -1762,7 +1762,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-23.png',
 		    'category': '102',
@@ -1777,7 +1777,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-24.png',
 		    'category': '102',
@@ -1792,7 +1792,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-25.png',
 		    'category': '102',
@@ -1809,7 +1809,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-26.png',
 		    'category': '102',
@@ -1826,7 +1826,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-27.png',
 		    'category': '102',
@@ -1840,7 +1840,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-28.png',
 		    'category': '102',
@@ -1854,7 +1854,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-29.png',
 		    'category': '102',
@@ -1871,7 +1871,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-30.png',
 		    'category': '102',
@@ -1888,7 +1888,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-35.png',
 		    'category': '102',
@@ -1904,7 +1904,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-36.png',
 		    'category': '102',
@@ -1920,7 +1920,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-37.png',
 		    'category': '102',
@@ -1939,7 +1939,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-38.png',
 		    'category': '102',
@@ -1958,7 +1958,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-39.png',
 		    'category': '102',
@@ -1986,7 +1986,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-40.png',
 		    'category': '102',
@@ -2002,7 +2002,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/photos-41.png',
 		    'category': '102',
@@ -2202,7 +2202,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-       
+
 		{
 		    'thumbnail': 'preview/profile-07.png',
 		    'category': '103',
@@ -2302,7 +2302,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-12.png',
 		    'category': '103',
@@ -2348,7 +2348,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-13.png',
 		    'category': '103',
@@ -2379,7 +2379,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-14.png',
 		    'category': '103',
@@ -2409,7 +2409,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-15.png',
 		    'category': '103',
@@ -2458,7 +2458,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-16.png',
 		    'category': '103',
@@ -2497,7 +2497,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-17.png',
 		    'category': '103',
@@ -2546,7 +2546,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-18.png',
 		    'category': '103',
@@ -2577,7 +2577,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-19.png',
 		    'category': '103',
@@ -2615,7 +2615,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/profile-20.png',
 		    'category': '103',
@@ -2645,7 +2645,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-21.png',
 		    'category': '103',
@@ -2668,7 +2668,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-22.png',
 		    'category': '103',
@@ -2691,7 +2691,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-23.png',
 		    'category': '103',
@@ -2715,7 +2715,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-24.png',
 		    'category': '103',
@@ -2765,7 +2765,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-27.png',
 		    'category': '103',
@@ -2791,7 +2791,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-29.png',
 		    'category': '103',
@@ -2816,7 +2816,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-30.png',
 		    'category': '103',
@@ -2881,7 +2881,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-31.png',
 		    'category': '103',
@@ -2909,7 +2909,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/profile-32.png',
 		    'category': '103',
@@ -2937,7 +2937,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		/* PRODUCTS */
 
 		{
@@ -3432,7 +3432,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 					'</div>' +
 				'</div>'
-        },		
+        },
 
 		{
 		    'thumbnail': 'preview/products-12.png',
@@ -4341,7 +4341,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/features-19.png',
 		    'category': '105',
@@ -4369,7 +4369,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/steps-01.png',
 		    'category': '106',
@@ -4851,7 +4851,7 @@ var data_basic = {
 						'\n<p class="size-16" style="color: rgb(136, 136, 136);">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 					'</div>' +
 				'</div>'
-		},		
+		},
 
 		{
 		    'thumbnail': 'preview/steps-13.png',
@@ -4882,7 +4882,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry. Vivamus leo ante, dolor sit amet vel.</p>' +
 					'</div>' +
 				'</div>'
-		},	
+		},
 
 		{
 		    'thumbnail': 'preview/steps-14.png',
@@ -4916,7 +4916,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 					'</div>' +
 				'</div>'
-		},	
+		},
 
 		{
 		    'thumbnail': 'preview/steps-15.png',
@@ -4946,7 +4946,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 				'</div>'
-		},	
+		},
 
 		{
 		    'thumbnail': 'preview/steps-16.png',
@@ -5105,7 +5105,7 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-24">BASIC / FREE</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5117,7 +5117,7 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-24">DELUXE / $77</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5129,7 +5129,7 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-24">PREMIUM / $89</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5273,7 +5273,7 @@ var data_basic = {
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Dolor sit amet.</p>' +
 								_tabs(2) + '<h4>$ <span class="size-80 is-title-bold" style="font-weight: 600">39</span></h4>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5286,7 +5286,7 @@ var data_basic = {
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Dolor sit amet.</p>' +
 								_tabs(2) + '<h4>$ <span class="size-80 is-title-bold" style="font-weight: 600">59</span></h4>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5299,7 +5299,7 @@ var data_basic = {
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Dolor sit amet.</p>' +
 								_tabs(2) + '<h4>$ <span class="size-80 is-title-bold" style="font-weight: 600">79</span></h4>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5323,7 +5323,7 @@ var data_basic = {
 						'\n<p style="border-bottom: 2.5px solid #000; width: 40px; display: inline-block; margin-top:0"></p>' +
 						'\n<p>Lorem Ipsum is dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 						'\n<div style="margin:2.2em 0">' +
-							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
@@ -5332,7 +5332,7 @@ var data_basic = {
 						'\n<p style="border-bottom: 2.5px solid #000; width: 40px; display: inline-block; margin-top:0"></p>' +
 						'\n<p>Lorem Ipsum is dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 						'\n<div style="margin:2.2em 0">' +
-							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 						'\n</div>' +
 					'</div>' +
 				'</div>'
@@ -5459,7 +5459,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-15.png',
 		    'category': '107',
@@ -5480,7 +5480,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is dummy text of the printing and typesetting industry.</p>' +
 						'\n<p style="font-size: 24px; line-height: 1.4">$<span class="size-64 is-title-lite">34</span>/ month</p>' +
 						'\n<div style="margin:2em 0">' +
-							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small">Choose Plan</a>' +
+							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small">Choose PlanSuscripcion</a>' +
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
@@ -5488,12 +5488,12 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is dummy text of the printing and typesetting industry.</p>' +
 						'\n<p style="font-size: 24px; line-height: 1.4">$<span class="size-64 is-title-lite">57</span>/ month</p>' +
 						'\n<div style="margin:2em 0">' +
-							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small">Choose Plan</a>' +
+							_tabs(1) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small">Choose PlanSuscripcion</a>' +
 						'\n</div>' +
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-16.png',
 		    'category': '107',
@@ -5535,7 +5535,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-17.png',
 		    'category': '107',
@@ -5558,7 +5558,7 @@ var data_basic = {
 								_tabs(2) + '<h4>$ <span class="size-88">39</span></h4>' +
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5570,7 +5570,7 @@ var data_basic = {
 								_tabs(2) + '<h4>$ <span class="size-88">59</span></h4>' +
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5582,14 +5582,14 @@ var data_basic = {
 								_tabs(2) + '<h4>$ <span class="size-88">99</span></h4>' +
 								_tabs(2) + '<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Select PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-18.png',
 		    'category': '107',
@@ -5613,7 +5613,7 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-18" style="color: rgb(119, 119, 119); letter-spacing: 2px;">$19 / MONTH</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5625,7 +5625,7 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-18" style="color: rgb(119, 119, 119); letter-spacing: 2px;">$59 / MONTH</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
@@ -5637,14 +5637,14 @@ var data_basic = {
 								_tabs(2) + '<h3 class="size-18" style="color: rgb(119, 119, 119); letter-spacing: 2px;">$79 / MONTH</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:2.2em 0">' +
-									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose Plan</a>' +
+									_tabs(3) + '<a href="#" class="is-btn is-btn-ghost1 is-upper is-btn-small edit">Choose PlanSuscripcion</a>' +
 								_tabs(2) + '</div>' +
 							_tabs(1) + '</div>' +
 						'\n</div>' +
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-19.png',
 		    'category': '107',
@@ -5695,7 +5695,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/pricing-20.png',
 		    'category': '107',
@@ -5719,7 +5719,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-        
+
 		{
 		    'thumbnail': 'preview/skills-01.png',
 		    'category': '108',
@@ -6632,7 +6632,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-10.png',
 		    'category': '109',
@@ -6665,7 +6665,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-11.png',
 		    'category': '109',
@@ -6699,7 +6699,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-12.png',
 		    'category': '109',
@@ -6733,7 +6733,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-13.png',
 		    'category': '109',
@@ -6756,7 +6756,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-14.png',
 		    'category': '109',
@@ -6790,7 +6790,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-15.png',
 		    'category': '109',
@@ -6854,7 +6854,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-16.png',
 		    'category': '109',
@@ -6905,7 +6905,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-17.png',
 		    'category': '109',
@@ -6956,7 +6956,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-		
+
 		{
 		    'thumbnail': 'preview/achievements-18.png',
 		    'category': '109',
@@ -7438,7 +7438,7 @@ var data_basic = {
 				'</div>'
 		},
 
-		/* PARTNERS */   
+		/* PARTNERS */
 
 		{
 		    'thumbnail': 'preview/partners-03.png',
@@ -7478,7 +7478,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-      
+
 		{
 		    'thumbnail': 'preview/partners-05.png',
 		    'category': '111',
@@ -7680,7 +7680,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-       
+
 		{
 		    'thumbnail': 'preview/asfeaturedon-05.png',
 		    'category': '112',
@@ -8333,7 +8333,7 @@ var data_basic = {
 					'</div>' +
 				'</div>'
 		},
-     
+
 		{
 		    'thumbnail': 'preview/contact-04.png',
 		    'category': '116',
@@ -8687,7 +8687,7 @@ var data_basic = {
 		    'html':
 				'<div>' +
                     '<a href="#" class="is-btn is-btn-ghost2 is-upper">Read More</a>' +
-                '</div>' 
+                '</div>'
 		},
 
 		{
@@ -8818,7 +8818,7 @@ var data_basic = {
                     '</div>'
 		},
 
-		/* Line (hr) 
+		/* Line (hr)
 		{
 		    'thumbnail': 'preview/element-line.png',
 		    'category': '120',
@@ -8834,7 +8834,7 @@ var data_basic = {
 		    'html':
 			    '<div class="row clearfix">' +
                     '<div class="column full" data-noedit data-module="slider" data-module-desc="Slider" data-html="' +
-                    
+
                         encodeURIComponent('<div id="{id}" class="slider-on-content" style="width:100%;height:500px;display:none">' +
                             '<div class="is-boxes slider-image" style="background-image: url(\'assets/minimalist-blocks/images/slide1.jpg\');">' +
                             '</div>' +
@@ -8873,8 +8873,8 @@ var data_basic = {
                         '</scr' + 'ipt>' +
                         '') +
 
-                        '" data-settings="' + 
-                        
+                        '" data-settings="' +
+
                         encodeURIComponent('[' +
                                 '{' +
                                     '"auto":false,' +
@@ -8905,7 +8905,7 @@ var data_basic = {
 			    '</div>'
 		},
 
-		/* Table 
+		/* Table
 		{
 		    'thumbnail': 'preview/element-table.png',
 		    'category': '120',

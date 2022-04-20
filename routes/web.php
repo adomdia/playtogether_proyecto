@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,23 +33,27 @@ Route::group(['middleware' => 'auth'], function () {
         return view('ejemplo_slide');
     })->name('ejemplo.slide');
     Route::get('/posts', function () {
-        return view('posts');
+        $posts = \App\Models\Post::all();
+
+        return view('posts.index',compact('posts'));
     })->name('posts');
     Route::get('/post/{slug}', function () {
-        return view('post');
+        return view('posts.show');
     })->name('post');
-    Route::get('/paginas', function () {
-        return view('paginas');
-    })->name('paginas');
-    Route::get('/pagina/{slug}', function () {
-        return view('pagina');
-    })->name('pagina');
+
+    Route::get('/paginas','PageController@index')->name('paginas');
+    Route::get('/pagina/{slug}', 'PageController@showPage')->name('pagina');
+
     Route::get('/notificaciones', function () {
         return view('notificaciones');
     })->name('notificaciones');
     Route::get('/livewire', function () {
         return view('ejemplo_livewire');
     })->name('livewire');
+
+    Route::get('/vue', function () {
+        return view('ejemplo_vue');
+    })->name('vue');
 });
 
 require __DIR__ . '/auth.php';
@@ -71,4 +76,6 @@ Route::group(['prefix' => 'intranet'], function () {
         })->name('ayuda');
     });
     Voyager::routes();
+
+
 });
