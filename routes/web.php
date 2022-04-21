@@ -27,14 +27,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/ejemplo-slide', function () {
         return view('ejemplo_slide');
     })->name('ejemplo.slide');
-    Route::get('/posts', function () {
-        $posts = \App\Models\Post::all();
-
-        return view('posts.index',compact('posts'));
-    })->name('posts');
-    Route::get('/post/{slug}', function () {
-        return view('posts.show');
-    })->name('post');
+    Route::get('/posts', 'PostController@index')->name('posts');
+    Route::get('/post/{slug}', 'PostController@single')->name('post.single');
 
     Route::get('/paginas','PageController@index')->name('paginas');
     Route::get('/pagina/{slug}', 'PageController@showPage')->name('pagina');

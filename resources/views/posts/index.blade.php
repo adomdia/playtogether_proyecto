@@ -16,7 +16,7 @@
                     <p>{{$post->excerpt}}</p>
                 </div>
                 <div class="card-footer">
-                    <a class="btn btn-success">Ver más</a>
+                    <a class="btn btn-success" href="{{route('post.single',$post->slug)}}">Ver más</a>
                 </div>
 
             </div>

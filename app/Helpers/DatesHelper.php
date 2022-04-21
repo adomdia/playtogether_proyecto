@@ -24,6 +24,13 @@ class DatesHelper
        dd($diaNum);
 
         return [$diaSemana,$mes,$diaNum,$anio];
-
+    }
+    public static function toEuFormat($date=null){
+        //TODO => Terminar
+        if($date){
+            return Carbon::parse($date)->format('d-m-Y H:i:s');
+        }else{
+            return Carbon::now()->format('d-m-Y H:i:s');
+        }
     }
 }

@@ -8,8 +8,8 @@
 @section('page_title', __('voyager::generic.'.(!is_null($dataTypeContent->getKey()) ? 'edit' : 'add')).' '.$dataType->display_name_singular)
 
 @section('page_header')
-    <h1 class="page-title">
-        <i class="{{ $dataType->icon }}"></i>
+    <h1 class="page-title title_responsive">
+        <i class="{{ $dataType->icon }} "></i>
         {{ __('voyager::generic.'.(!is_null($dataTypeContent->getKey()) ? 'edit' : 'add')).' '.$dataType->display_name_singular }}
     </h1>
     @include('voyager::multilingual.language-selector')
@@ -18,7 +18,7 @@
 @section('content')
     <div class="page-content edit-add container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 cuerpo_edit_add">
 
                 <div class="panel panel-bordered">
                     <!-- form start -->
@@ -62,9 +62,9 @@
                                 @if (isset($row->details->formfields_custom))
                                     @include('voyager::intranet.formfields.custom.' . $row->details->formfields_custom)
                                 @else
-                                    <div class="form-group @if($row->type == 'hidden') hidden @endif col-md-{{ isset($display_options->width) ? $display_options->width : 12 }}" @if(isset($display_options->id)){{ "id=$display_options->id" }}@endif>
+                                    <div class="contenedor_input form-group @if($row->type == 'hidden') hidden @endif col-md-{{ isset($display_options->width) ? $display_options->width : 12 }}" @if(isset($display_options->id)){{ "id=$display_options->id" }}@endif>
                                         {{ $row->slugify }}
-                                        <label for="name">{{ $row->display_name }}</label>
+                                        <label class="" for="name">{{ $row->display_name }}</label>
                                         @include('voyager::multilingual.input-hidden-bread-edit-add')
                                         @if($row->type == 'relationship')
                                             @include('voyager::intranet.formfields.relationship', ['options' => $row->details])
@@ -82,7 +82,7 @@
                         </div><!-- panel-body -->
 
                         <div class="panel-footer">
-                            <button type="button" id="enviar" class="btn btn-primary btn_save">{{ __('voyager::generic.save') }}</button>
+                            <button type="button" id="send" class="btn btn-primary">{{ __('voyager::generic.save') }}send</button>
                         </div>
                     </form>
 
@@ -128,7 +128,11 @@
     <script>
         var params = {};
         var $file;
-
+        $('#send').click((e)=>{
+            e.preventDefault();
+            e.stopPropagation();
+            $('.form-edit-add').submit();
+        })
         function deleteHandler(tag, isMulti) {
             return function() {
                 $file = $(this).siblings(tag);
@@ -173,6 +177,7 @@
             $('.form-group').on('click', '.remove-single-file', deleteHandler('a', false));
 
             $('#confirm_delete').on('click', function(){
+
                 $.post('{{ route('voyager.'.$dataType->slug.'.media.remove') }}', params, function (response) {
                     if ( response
                         && response.data
