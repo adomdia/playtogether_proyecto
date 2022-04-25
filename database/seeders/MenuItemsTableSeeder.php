@@ -183,7 +183,7 @@ class MenuItemsTableSeeder extends Seeder
             $menuItem->fill([
                 'target'     => '_self',
                 'icon_class' => 'voyager-question',
-                'color'      => null,
+                'color'      => '#000000',
                 'parent_id'  => null,
                 'order'      => 15,
             ])->save();

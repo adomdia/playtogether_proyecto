@@ -74,7 +74,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.title'),
-                'value'        => 'Voyager',
+                'value'        => 'Intranet',
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
@@ -86,7 +86,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.description'),
-                'value'        => __('voyager::seeders.settings.admin.description_value'),
+                'value'        => 'Bienvenido a tu intranet. ¡Todo el control de tu proyecto al alcance de tu mano!',
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 2,
