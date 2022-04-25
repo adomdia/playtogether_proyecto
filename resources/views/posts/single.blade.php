@@ -12,15 +12,13 @@
 @endsection
 
 @section('content')
-<div class="container" style="margin-top: 10vh">
+<div class="container" style="margin-top: 10vh;">
     <div class="row">
         <div class="col-12">
             <h1 style="text-align: center">{{$post->title}}</h1>
         </div>
         <div class="col-12 col-md-6" style="margin:auto">
-
                 {!! $post->body!!}
-
         </div>
         <div class="col-12 col-md-6" style="margin:auto">
 

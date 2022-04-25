@@ -8,10 +8,10 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
     <!-- Nuestros estilos -->
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="icon" href="{{asset('images/logo-icon.png')}}" type="image/ico" sizes="16x16">

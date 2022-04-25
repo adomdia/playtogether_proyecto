@@ -31,7 +31,7 @@
         body.login .login-button {
             display: block;
             background-color: {{ Voyager::setting(('admin.bg_color'), "#18a71e"  ) }};
-background: #18a71e;
+            background: #18a71e;
             text-align: center;
             color: #eee;
             padding: 12px 20px;
@@ -153,7 +153,7 @@ background: #18a71e;
                 left: 0;
                 right: 0;
                 bottom: 0;
-                 background: transparent;
+                background: transparent;
                 /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(21,21,28,0)),color-stop(40%,rgba(21,21,28,.1)),color-stop(55%,rgba(21,21,28,.3)),color-stop(75%,rgba(21,21,28,.61)),to(#15151c)); */
                 /* background: linear-gradient(180deg,rgba(21,21,28,0) 0,rgba(21,21,28,.1) 40%,rgba(21,21,28,.3) 55%,rgba(21,21,28,.61) 75%,#15151c); */
                 /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0015151c",endColorstr="#15151c",GradientType=0); */
@@ -255,7 +255,7 @@ background: #18a71e;
                             <label class="">{{ __('voyager::generic.email') }}</label>
                             <div class="controls">
                                 <input type="text" name="email" id="email" value="{{ old('email') }}"
-                                        class="form-control" required>
+                                       class="form-control" required>
                             </div>
                         </div>
                     </div>
@@ -271,13 +271,12 @@ background: #18a71e;
 
 
                     <div class="" style="background-color: black">
-                        <button type="submit" class="btn btn-block login-button">
+                        <button type="submit" class="btn btn-block login-button" style="background-color:{{ Voyager::setting('admin.bg_color','#FFFFFF' ) }}">
 
                             <span class="signingin hidden"><span
                                     class="voyager-refresh"></span> {{ __('voyager::login.loggingin') }}...</span>
                             <span class="signin"
-                                  style="opacity: 1">ACCEDER{{--{{ __('voyager::generic.login') }}--}}</span>
-
+                                  style="opacity: 1;">ACCEDER{{--{{ __('voyager::generic.login') }}--}}</span>
                         </button>
                     </div>
 

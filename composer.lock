@@ -1930,7 +1930,6 @@
             "require": {
                 "jaybizzle/crawler-detect": "~1.2",
                 "league/pipeline": "^1.0",
-                "matomo/device-detector": "^4.0",
                 "mobiledetect/mobiledetectlib": "~2.8",
                 "php": "^7.2 || ^8.0",
                 "ua-parser/uap-php": "~3.9"
@@ -2062,63 +2061,6 @@
                 }
             ],
             "time": "2021-12-16T16:49:26+00:00"
-        },
-        {
-            "name": "ivanomatteo/laravel-device-tracking",
-            "version": "0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ivanomatteo/laravel-device-tracking.git",
-                "reference": "49930f9e0648346957123bcdf535edb5697734cf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ivanomatteo/laravel-device-tracking/zipball/49930f9e0648346957123bcdf535edb5697734cf",
-                "reference": "49930f9e0648346957123bcdf535edb5697734cf",
-                "shasum": ""
-            },
-            "require": {
-                "hisorange/browser-detect": "^4.2",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^4.0",
-                "phpunit/phpunit": "^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "IvanoMatteo\\LaravelDeviceTracking\\LaravelDeviceTrackingServiceProvider"
-                    ],
-                    "aliases": {
-                        "DeviceTracker": "IvanoMatteo\\LaravelDeviceTracking\\LaravelDeviceTrackingFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "IvanoMatteo\\LaravelDeviceTracking\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ivano Matteo",
-                    "email": "ivanomatteo@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "a library that allow to track different devices used",
-            "homepage": "https://github.com/ivanomatteo/laravel-device-tracking",
-            "keywords": [
-                "ivanomatteo",
-                "laravel-device-tracking"
-            ],
-            "time": "2020-12-08T09:14:06+00:00"
         },
         {
             "name": "jaybizzle/crawler-detect",
