@@ -45,7 +45,7 @@ class RegisteredUserController extends Controller
         ]));
 
         event(new Registered($user));
-
+        //Necesario primero configurar servidor email: return redirect()->route('verification.notice');
         return redirect(RouteServiceProvider::HOME);
     }
 }

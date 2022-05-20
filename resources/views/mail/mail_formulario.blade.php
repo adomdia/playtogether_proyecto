@@ -18,7 +18,7 @@
                 Apellido: <span></span>
             </p>
             <p>
-                Email: <a href="mailto:"><span>}</span></a>
+                Email: <a href="mailto:"></a>
             </p>
             <p>
                 Teléfono: <span></span>
