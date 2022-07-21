@@ -5,7 +5,7 @@
  * Date: 22/08/2017
  * Time: 15:25
  */
-
+namespace App\Helpers;
 class FlashHelper
 {
     /**
