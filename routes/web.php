@@ -40,6 +40,10 @@ Route::group(['middleware' => 'auth'], function () {
         return view('ejemplo_livewire');
     })->name('livewire');
 
+    Route::get('/editar-perfil', function () {
+        return view('edit_user');
+    })->name('edit.perfil.form');
+
 });
 
 require __DIR__ . '/auth.php';

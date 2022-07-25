@@ -77,7 +77,7 @@
                     </x-slot>
 
                     <x-slot name="content">
-                        <x-dropdown-link :href="route('logout')">
+                        <x-dropdown-link :href="route('edit.perfil.form')">
                             Mi Perfil
                         </x-dropdown-link>
                         <!-- Authentication -->
