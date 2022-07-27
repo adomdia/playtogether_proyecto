@@ -149,7 +149,6 @@
                 </div>
                     @endauth
             </div>
-
             <div class="mt-3 space-y-1">
                 <!-- Authentication -->
                 <x-responsive-nav-link :href="route('edit.perfil.form')">
