@@ -6,10 +6,10 @@ namespace App\Helpers;
 
 class EliminarTildesHelper
 {
+    /**
+     * Elimina tildes, virgulillas y diéresis de una cadena dada.
+     */
     public static function eliminarTildes($cadena){
-        //Codificamos la cadena en formato utf8 en caso de que nos de errores
-
-
         //Ahora reemplazamos las letras
         $cadena = str_replace(
             array('á', 'à', 'ä', 'â', 'ª', 'Á', 'À', 'Â', 'Ä'),

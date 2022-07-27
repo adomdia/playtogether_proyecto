@@ -7,9 +7,11 @@ use DateTime;
 
 class DatesHelper
 {
-
+    /**
+     *Devuelve en forma de array, la fecha en español (dia de la semana y mes)
+     */
     public static function toSpanishDate($date=null){
-            //TODO => Terminar
+
         if($date){
             $diaSemana=Carbon::parse($date)->formatLocalized('%A');
             $mes=Carbon::parse($date)->formatLocalized('%B');
@@ -21,12 +23,13 @@ class DatesHelper
             $diaNum=getdate()['mday'];
             $anio = Carbon::now()->formatLocalized('%Y');
         }
-       dd($diaNum);
-
         return [$diaSemana,$mes,$diaNum,$anio];
     }
+
+    /**
+     * Parsea una fecha dada o la actual al formato europeo, dd-mm-YYYY H:i:s
+     */
     public static function toEuFormat($date=null){
-        //TODO => Terminar
         if($date){
             return Carbon::parse($date)->format('d-m-Y H:i:s');
         }else{

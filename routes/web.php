@@ -17,7 +17,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    dd(\Carbon\Carbon::now());
+    dd(\App\Helpers\DatesHelper::toEuFormat(\Carbon\Carbon::now()));
     return view('welcome');
+
 })->name('home');
 
 Route::group(['middleware' => 'auth'], function () {
