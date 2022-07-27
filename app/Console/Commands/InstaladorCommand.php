@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageServiceProviderLaravel5;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\Process;
@@ -260,6 +261,7 @@ class InstaladorCommand extends Command
                 'name' => $name,
                 'email' => $email,
                 'password' => Hash::make($password),
+                'avatar' => Storage::disk('public')->get('users/default.png'),
             ]);
         }
 

@@ -40,9 +40,8 @@ Route::group(['middleware' => 'auth'], function () {
         return view('ejemplo_livewire');
     })->name('livewire');
 
-    Route::get('/editar-perfil', function () {
-        return view('edit_user');
-    })->name('edit.perfil.form');
+    Route::get('/editar-perfil','UserController@showProfile')->name('edit.perfil.form');
+    Route::post('/send-update-perfil','UserController@updateProfile')->name('update.profile');
 
 });
 
