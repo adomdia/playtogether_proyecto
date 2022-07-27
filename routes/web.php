@@ -29,10 +29,8 @@ Route::group(['middleware' => 'auth'], function () {
     })->name('ejemplo.slide');
     Route::get('/posts', 'PostController@index')->name('posts');
     Route::get('/post/{slug}', 'PostController@single')->name('post.single');
-
     Route::get('/paginas','PageController@index')->name('paginas');
     Route::get('/pagina/{slug}', 'PageController@showPage')->name('pagina');
-
     Route::get('/notificaciones', function () {
         return view('notificaciones');
     })->name('notificaciones');
@@ -56,9 +54,7 @@ Route::group(['middleware' => 'auth'], function () {
 Route::group(['prefix' => 'intranet'], function () {
     Route::group(['middleware' => 'admin.user'], function () {
         Route::get('/users/suplantar/{id}', [\App\Http\Controllers\AdminExtraController::class, 'suplantar'])->name('suplantar');
-
         // Route::get('/users/suplantar/{id}', [UserController::class,'suplantar'])->name('suplantar');
-
         Route::any('/cms/imagesave', 'Admin\VoyagerController@saveImage')->name('intranet.contentbuilder.saveimage');
         Route::get('/ayuda', function () {
             return view('vendor.voyager.ayuda.index');

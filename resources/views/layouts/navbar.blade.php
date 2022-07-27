@@ -33,17 +33,17 @@
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('ejemplo.slide')" :active="request()->routeIs('ejemplo.slide')">
-                        Ejemplo Carrusel
+                        Ejemplo Carrousel
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('notificaciones')" :active="request()->routeIs('notificaciones')">
-                        Ejemplo Notificaciones Toastr
+                        Notificaciones Toastr
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('livewire')" :active="request()->routeIs('livewire')">
-                        Ejemplo Livewire
+                        Livewire
                     </x-nav-link>
                 </div>
 
@@ -113,18 +113,22 @@
             <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
                 Inicio
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('ejemplo.slide')" :active="request()->routeIs('ejemplo.slide')">
-                Ejemplo Carrusel
-            </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('notificaciones')" :active="request()->routeIs('notificaciones')">
-                Ejemplo Notificaciones Toastr
-            </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('posts')" :active="request()->routeIs('posts')">
                 Posts
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('paginas')" :active="request()->routeIs('paginas')">
                 Páginas
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('ejemplo.slide')" :active="request()->routeIs('ejemplo.slide')">
+                Ejemplo Carrousel
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('notificaciones')" :active="request()->routeIs('notificaciones')">
+                Ejemplo Notificaciones Toastr
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('livewire')" :active="request()->routeIs('livewire')">
+               Livewire
+            </x-responsive-nav-link>
+
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
@@ -148,6 +152,9 @@
 
             <div class="mt-3 space-y-1">
                 <!-- Authentication -->
+                <x-responsive-nav-link :href="route('edit.perfil.form')">
+                    Mi Perfil
+                </x-responsive-nav-link>
 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf

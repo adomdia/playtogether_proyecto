@@ -11,6 +11,7 @@
                         <p>Estás utilizando el paquete Laravel Breeze para autenticación de usuarios</p>
                         <p>Las vistas están en <strong>views/auth</strong></p>
                         <p>Los controladores en <strong>app/Http/Controllers/Auth</strong></p>
+                        <p>Y las rutas en <strong>routes/auth.php</strong></p>
                     </div>
                 </div>
             </div>
