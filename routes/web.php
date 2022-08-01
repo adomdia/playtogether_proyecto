@@ -37,7 +37,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/livewire', function () {
         return view('ejemplo_livewire');
     })->name('livewire');
-
+    Route::get('/fancy-box', function () {
+        return view('fancybox');
+    })->name('fancybox');
     Route::get('/editar-perfil','UserController@showProfile')->name('edit.perfil.form');
     Route::post('/send-update-perfil','UserController@updateProfile')->name('update.profile');
 
