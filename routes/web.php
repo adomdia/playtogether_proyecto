@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+Route::get('/contacto','ContactController@index')->name('contacto');
+Route::post('/enviar-contacto','ContactController@sendContact')->name('contacto.send');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/dashboard', function () {
