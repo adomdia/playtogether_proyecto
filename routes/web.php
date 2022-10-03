@@ -3,6 +3,8 @@
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\TestController;
+
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -45,14 +47,24 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/editar-perfil','UserController@showProfile')->name('edit.perfil.form');
     Route::post('/send-update-perfil','UserController@updateProfile')->name('update.profile');
 
+    Route::get('/dompdf', function () {
+        return view('dompdf');
+    })->name('dompdf');
+    Route::post('/download-dompdf', function () {
+        $data['dato_1'] = 1;
+        $data['dato_2'] = 2;
+        $pdf = Pdf::loadView('pdf.invoice', array('data'=>$data));
+        return $pdf->download('factura_123.pdf');
+    })->name('download-dompdf');
+
 });
 
 require __DIR__ . '/auth.php';
 
 ##Stripe
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/subscription/create', [\App\Http\Controllers\SubscriptionController::class, 'index'])->name('subscription.create');
-    Route::post('order-post', [\App\Http\Controllers\SubscriptionController::class, 'orderPost'])->name('order-post');
+    Route::get('/subscription/create', [\App\Http\Controllers\StripeController::class, 'index'])->name('subscription.create');
+    Route::post('order-post', [\App\Http\Controllers\StripeController::class, 'orderPost'])->name('order-post');
 });
 
 Route::group(['prefix' => 'intranet'], function () {

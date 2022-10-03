@@ -33,12 +33,12 @@
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('ejemplo.slide')" :active="request()->routeIs('ejemplo.slide')">
-                        Ejemplo Carrousel
+                        OWL Carrousel
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('notificaciones')" :active="request()->routeIs('notificaciones')">
-                        Notificaciones Toastr
+                        Toastr
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
@@ -49,6 +49,11 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('livewire')" :active="request()->routeIs('livewire')">
                         Livewire
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('dompdf')" :active="request()->routeIs('dompdf')">
+                        Dom PDF
                     </x-nav-link>
                 </div>
 
@@ -125,10 +130,10 @@
                 Páginas
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('ejemplo.slide')" :active="request()->routeIs('ejemplo.slide')">
-                Ejemplo Carrousel
+                OWL Carrousel
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('notificaciones')" :active="request()->routeIs('notificaciones')">
-                Ejemplo Notificaciones Toastr
+                Toastr
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('fancybox')" :active="request()->routeIs('fancybox')">
                 FancyBox
@@ -136,10 +141,14 @@
             <x-responsive-nav-link :href="route('livewire')" :active="request()->routeIs('livewire')">
                Livewire
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('dompdf')" :active="request()->routeIs('dompdf')">
+                Dom PDF
+            </x-responsive-nav-link>
 
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+
         </div>
 
         <!-- Responsive Settings Options -->
