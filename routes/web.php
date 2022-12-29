@@ -23,6 +23,10 @@ Route::get('/', function () {
 })->name('home');
 Route::get('/contacto','ContactController@index')->name('contacto');
 Route::post('/enviar-contacto','ContactController@sendContact')->name('contacto.send');
+Route::get('/posts', 'PostController@index')->name('posts');
+Route::get('/post/{slug}', 'PostController@single')->name('post.single');
+Route::get('/paginas','PageController@index')->name('paginas');
+Route::get('/pagina/{slug}', 'PageController@showPage')->name('pagina');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/dashboard', function () {
@@ -31,10 +35,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/ejemplo-slide', function () {
         return view('ejemplo_slide');
     })->name('ejemplo.slide');
-    Route::get('/posts', 'PostController@index')->name('posts');
-    Route::get('/post/{slug}', 'PostController@single')->name('post.single');
-    Route::get('/paginas','PageController@index')->name('paginas');
-    Route::get('/pagina/{slug}', 'PageController@showPage')->name('pagina');
+
     Route::get('/notificaciones', function () {
         return view('notificaciones');
     })->name('notificaciones');
@@ -78,3 +79,4 @@ Route::group(['prefix' => 'intranet'], function () {
     });
     Voyager::routes();
 });
+Route::get('language/{locale}', 'LanguageController@setLocale')->where('locale','en|es')->name('language');

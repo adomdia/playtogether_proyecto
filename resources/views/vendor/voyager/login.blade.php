@@ -271,7 +271,7 @@
 
 
                     <div class="" style="background-color: black">
-                        <button type="submit" class="btn btn-block login-button" style="background-color:{{ Voyager::setting('admin.bg_color','#FFFFFF' ) }}">
+                        <button type="submit" class="btn btn-block login-button" style="background-color:{{ Voyager::setting('admin.bg_login_button','#FFFFFF' ) }}">
 
                             <span class="signingin hidden"><span
                                     class="voyager-refresh"></span> {{ __('voyager::login.loggingin') }}...</span>
