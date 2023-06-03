@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div id="copyright" class="col-md-12">
-                Xerintel © {{date("Y")}} Diseño y desarrollo por <a href="https://www.xerintel.es">Xerintel</a> Idioma: {{__('home.test_idioma')}}
+                Playtogether  {{date("Y")}} Diseño y desarrollo por Antonio J. Domínguez Idioma: {{__('home.test_idioma')}}
             </div>
         </div>
     </div>

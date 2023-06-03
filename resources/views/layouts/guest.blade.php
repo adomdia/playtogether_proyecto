@@ -9,8 +9,10 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
         <!-- Styles -->
+        <link rel="icon" href="{{asset('favicon.ico')}}" type="image/ico" sizes="16x16">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         <!-- Scripts -->

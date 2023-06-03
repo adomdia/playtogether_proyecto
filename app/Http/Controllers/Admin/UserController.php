@@ -14,10 +14,7 @@ use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 
 class UserController extends BaseFiltradoController
 {
-    /**
-     * Añado filtro para que el usuario Xerintel quede protegido y vea a todos.
-     * Los administradores puede ver a todos menos a xerintel.
-     */
+
     protected function miFiltro(Builder $query)
     {
         $role_id = \auth()->user()->role_id;
@@ -28,8 +25,6 @@ class UserController extends BaseFiltradoController
             return $query->whereNotIn('role_id', [1]);
         }
 
-        // Esta línea solo deja ver usuarios que no son administradores.
-        //return $query->whereNotIn('role_id', [1, 3]);
 
         return $query->whereNotIn('role_id', [1]);
     }

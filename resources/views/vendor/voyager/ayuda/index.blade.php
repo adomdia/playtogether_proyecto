@@ -144,17 +144,6 @@
                             en guardar y listo.
                             <br /><br />
                         </div>
-
-                        <div id="editor-contenido-avanzado"  class="col-md-12">
-                            <h3>Editor de Contenido Avanzado</h3>
-                            <br /><br />
-                            <video style="width: 100%" controls>
-                                <source src="{{asset('video/intranet/ayuda/contentbuilder-xerintel-demo.mp4')}}"
-                                        type="video/mp4">
-                                Tu navegador no soporta la etiqueta de vídeo
-                            </video>
-                            <br /><br />
-                        </div>
                     </div>
                 </div>
             </div>

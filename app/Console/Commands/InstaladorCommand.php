@@ -25,14 +25,15 @@ class InstaladorCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'xerintel:install';
+    protected $signature = 'voyager:install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Instalacion simplificada marca Xerintel';
+    protected $description = 'Instalacion simplificada';
+
 
     /**
      * Create a new command instance.
@@ -208,12 +209,12 @@ class InstaladorCommand extends Command
     protected function getAdministratorRole()
     {
         $role = Voyager::model('Role')->firstOrNew([
-            'name' => 'Xerintel',
+            'name' => 'admin',
         ]);
 
         if (!$role->exists) {
             $role->fill([
-                'display_name' => 'Xerintel',
+                'display_name' => 'admin',
             ])->save();
         }
 
@@ -230,7 +231,7 @@ class InstaladorCommand extends Command
     protected function getUser($create = false)
     {
         //$email = $this->argument('email');
-        $email = "info@xerintel.es";
+        $email = "info@playtogether.es";
 
         $model = config('voyager.user.namespace') ?: config('auth.providers.users.model');
 
@@ -239,7 +240,7 @@ class InstaladorCommand extends Command
 
         // If we need to create a new user go ahead and create it
         if ($create) {
-            $name = 'Xerintel';//$this->ask('Enter the admin name');
+            $name = 'admin';//$this->ask('Enter the admin name');
             $password = $this->secret('Escribe contraseña del usuario: ' . $email);
             $confirmPassword = $this->secret('Confirma la contraseña anterior');
 
